@@ -13,7 +13,7 @@ class Perceptron:
         self.n_epochs = n_epochs
 
     def net_input(self, X):
-        """Calculer le score lineaire X @ weights + bias."""
+        """Calculer le score ."""
         return np.dot(X, self.weights) + self.bias
 
     def predict(self, X):
