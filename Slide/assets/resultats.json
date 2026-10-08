@@ -1,0 +1,128 @@
+{
+  "code_cells": 19,
+  "figures": [
+    {
+      "file": "figure_01.png",
+      "titles": [
+        "Repartition des diagnostics"
+      ]
+    },
+    {
+      "file": "figure_02.png",
+      "titles": [
+        "mean radius selon le diagnostic"
+      ]
+    },
+    {
+      "file": "figure_03.png",
+      "titles": [
+        "mean concave points selon le diagnostic"
+      ]
+    },
+    {
+      "file": "figure_04.png",
+      "titles": [
+        "mean texture selon le diagnostic"
+      ]
+    },
+    {
+      "file": "figure_05.png",
+      "titles": [
+        "Matrice de correlation",
+        ""
+      ]
+    },
+    {
+      "file": "figure_06.png",
+      "titles": [
+        "Ce que resume l'ACP"
+      ]
+    },
+    {
+      "file": "figure_07.png",
+      "titles": [
+        "Perceptron sans ACP",
+        ""
+      ]
+    },
+    {
+      "file": "figure_08.png",
+      "titles": [
+        "Perceptron avec ACP",
+        ""
+      ]
+    },
+    {
+      "file": "figure_09.png",
+      "titles": [
+        "Regression logistique sans ACP",
+        ""
+      ]
+    },
+    {
+      "file": "figure_10.png",
+      "titles": [
+        "Regression logistique avec ACP",
+        ""
+      ]
+    },
+    {
+      "file": "figure_11.png",
+      "titles": [
+        "XOR : une droite ne suffit pas",
+        "Erreurs pendant l'apprentissage"
+      ]
+    },
+    {
+      "file": "figure_12.png",
+      "titles": [
+        "Apprentissage : points et frontiere",
+        "Test : points non vus pendant fit"
+      ]
+    },
+    {
+      "file": "figure_13.png",
+      "titles": [
+        "Nuages : erreurs par passe",
+        "XOR : erreurs par passe"
+      ]
+    },
+    {
+      "file": "figure_14.png",
+      "titles": [
+        "Breast Cancer : evolution des corrections"
+      ]
+    }
+  ],
+  "comparison": [
+    {
+      "Modele": "Perceptron sans ACP",
+      "Bonnes reponses (%)": 94.7,
+      "Rappel malin (%)": 90.5,
+      "Cas malins manques": 4,
+      "Fausses alertes": 2
+    },
+    {
+      "Modele": "Perceptron avec ACP",
+      "Bonnes reponses (%)": 97.4,
+      "Rappel malin (%)": 95.2,
+      "Cas malins manques": 2,
+      "Fausses alertes": 1
+    },
+    {
+      "Modele": "Regression logistique sans ACP",
+      "Bonnes reponses (%)": 96.5,
+      "Rappel malin (%)": 92.9,
+      "Cas malins manques": 3,
+      "Fausses alertes": 1
+    },
+    {
+      "Modele": "Regression logistique avec ACP",
+      "Bonnes reponses (%)": 97.4,
+      "Rappel malin (%)": 92.9,
+      "Cas malins manques": 3,
+      "Fausses alertes": 0
+    }
+  ],
+  "variance": 0.9520691014391004
+}
